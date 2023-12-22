@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 80px;
+    nav {
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .alldiv {
+            display: flex;
+            justify-content: end;
+
+            ul {
+                width: 40%;
+                gap: 25px;
+
+                .home {
+                    a {
+                        color: #FFC300;
+                    }
+                }
+
+                li {
+                    a {
+                        color: black;
+
+                        &:hover {
+                            color: #FFC300;
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+
+        .call {
+            .icon {
+                &:hover {
+                        color: #FFC300;
+                    }
+                a {
+                    color: black;
+                    &:hover {
+                        color: #FFC300;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+#product-sec {
+    width: 100%;
+    min-height: 600px;
+
+    #getProduct {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+        .box {
+
+            .btn {
+                padding: 11px 20px;
+                background-color: #232A35;
+                color: #F0F0F2;
+                font-size: 20px;
+
+                &:hover {
+                    background-color: #FF003C;
+                    border-color: #FF003C;
+                }
+            }
+        }
+    }
+
+}
+
+footer {
+    
+    width: 100%;
+    min-height: 130px;
+
+    .Copyright {
+        display: flex;
+        align-items: center;
+        min-height: 120px;
+
+        p {
+            display: flex;
+            align-items: center;
+            color: #cecdcd;
+
+            a {
+                text-decoration: none;
+
+                span {
+                    color: #92B9E8;
+                }
+            }
+        }
+    }
+
+    .icon {
+        min-height: 110px;
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+}
